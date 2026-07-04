@@ -1,0 +1,18 @@
+# AWS credentials - never commit
+infra/terraform-poc_accessKeys.csv
+infra/terraform-poc_credentials.csv
+*.pem
+*.ppk
+.aws/
+
+# Terraform
+**/.terraform/
+*.tfstate
+*.tfstate.backup
+*.tfvars
+!*.tfvars.example
+crash.log
+
+# Leftover AWS CLI installer (not project content)
+/aws/
+awscliv2.zip
