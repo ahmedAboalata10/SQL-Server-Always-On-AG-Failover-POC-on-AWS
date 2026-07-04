@@ -1,0 +1,4 @@
+# Copy this file to terraform.tfvars and fill in your own values.
+# terraform.tfvars is gitignored — it's local-only, never commit it.
+
+my_ip_cidr = "203.0.113.5/32" # get yours from https://checkip.amazonaws.com
